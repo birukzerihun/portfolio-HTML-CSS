@@ -293,6 +293,7 @@ nav ul a:hover {
   height: 28rem;
   border-radius: 2.5rem;
 }
+
 .project-text-box {
   display: flex;
   flex-direction: column;
@@ -302,17 +303,20 @@ nav ul a:hover {
   text-align: center;
 }
 .project-text-box h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
 .project-text-box p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1.6;
+  margin-bottom: 0.5rem;
 }
 .tech {
   display: flex;
   gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 .tech p {
   padding: 1rem;
@@ -322,6 +326,32 @@ nav ul a:hover {
 .see {
   display: flex;
   gap: 8rem;
+}
+
+.see a {
+  text-decoration: none;
+}
+
+.watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #2d2e32;
+}
+
+.watch:hover {
+  color: #147efb;
+}
+
+.watch p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.watch ion-icon {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 /*CONTACT*/
@@ -346,12 +376,13 @@ nav ul a:hover {
 .contact h4 {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .contact-info {
   display: flex;
   gap: 8rem;
+  margin-bottom: 5rem;
 }
 
 .contact-info p {
@@ -369,9 +400,33 @@ nav ul a:hover {
 } */
 
 .contact-info span {
+  display: block;
   font-size: 1.5rem;
   line-height: 1.5;
 }
+.location {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  color: #147efb;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  border-radius: 50%;
+}
+
+/*FOOTER*/
 
 footer {
   padding: 7rem;
@@ -380,10 +435,11 @@ footer {
 
 .foot {
   margin: 0 auto;
-  max-width: 107rem;
+  max-width: 120rem;
   padding: 0 4rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer p {
@@ -392,8 +448,15 @@ footer p {
   font-weight: 600;
 }
 
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
 footer span {
   color: #fff;
-  font-size: 1.9rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  gap: 3rem;
 }
